@@ -21,7 +21,7 @@ exercises: 2 # exercise time in minutes
 
 This is a test line added by Bas.
 
-Still not working.
+Still not working. Problems remain.
 
 This is a lesson created via The Carpentries Workbench. It is written in
 [Pandoc-flavored Markdown](https://pandoc.org/MANUAL.html) for static files and
