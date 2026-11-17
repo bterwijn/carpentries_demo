@@ -1,4 +1,4 @@
-#------------------------------------------------------------
+me#------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
 
@@ -18,10 +18,10 @@ carpentry: 'incubator'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'MyLesson' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2026-11-17 # FIXME
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries' # FIXME
