@@ -1,4 +1,4 @@
-me#------------------------------------------------------------
+#------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
 
@@ -42,7 +42,7 @@ source: 'https://github.com/bterwijn/carpentries_demo'
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'bterwijn@gmail.com' # FIXME
 
 # Navigation ------------------------------------------------
 #
