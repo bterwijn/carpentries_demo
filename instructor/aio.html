@@ -405,7 +405,7 @@ reinforce the objectives.</li>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing
 challenges associated with the lessons. They appear in the “Instructor
@@ -437,7 +437,7 @@ View”</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Output </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -466,7 +466,7 @@ challenge blocks?</h3>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
@@ -567,35 +567,21 @@ any links that you are not going to use.
 </h2>
 <hr class="half-width">
 <p>Exercises here.</p>
-</section><div class="section level1">
-<h1 id="multiple-choice">Multiple choice<a class="anchor" aria-label="anchor" href="#multiple-choice"></a>
-</h1>
-<p><a href="https://memory-graph.com/#code=%0A%23%20Output%20of%20this%20Python%20program%3F%0Aa%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20a%0Ab.append(4)%0A%0Aprint(a)%0A%23%20---%20possible%20answers%20---%0A%23%20A)%20%5B4%5D%0A%23%20B)%20%5B1%2C%202%2C%203%5D%0A%23%20C)%20%5B4%2C%201%2C%202%2C%203%5D%0A%23%20D)%20%5B1%2C%202%2C%203%2C%204%5D%0A" class="external-link uri">https://memory-graph.com/#code=%0A%23%20Output%20of%20this%20Python%20program%3F%0Aa%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20a%0Ab.append(4)%0A%0Aprint(a)%0A%23%20---%20possible%20answers%20---%0A%23%20A)%20%5B4%5D%0A%23%20B)%20%5B1%2C%202%2C%203%5D%0A%23%20C)%20%5B4%2C%201%2C%202%2C%203%5D%0A%23%20D)%20%5B1%2C%202%2C%203%2C%204%5D%0A</a></p>
-</div>
-<div class="section level1">
-<h1 id="fill-in-the-blank">Fill in the blank<a class="anchor" aria-label="anchor" href="#fill-in-the-blank"></a>
-</h1>
-<p><a href="https://memory-graph.com/#code=%0Aa%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20None%20%20%20%20%20%20%20%20%20%23%20%3C%3D%3D%3D%3D%3D%3D%3D%20%20What%20to%20write%20here%20so%20that%20%0Ab.append(4)%0A%0A%20%20%20%20%20%20%20%20%20%20%23%20the%20output%20is%3A%0Aprint(a)%20%20%23%20%5B1%2C%202%2C%203%5D%0Aprint(b)%20%20%23%20%5B1%2C%202%2C%203%2C%204%5D%0A" class="external-link uri">https://memory-graph.com/#code=%0Aa%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20None%20%20%20%20%20%20%20%20%20%23%20%3C%3D%3D%3D%3D%3D%3D%3D%20%20What%20to%20write%20here%20so%20that%20%0Ab.append(4)%0A%0A%20%20%20%20%20%20%20%20%20%20%23%20the%20output%20is%3A%0Aprint(a)%20%20%23%20%5B1%2C%202%2C%203%5D%0Aprint(b)%20%20%23%20%5B1%2C%202%2C%203%2C%204%5D%0A</a></p>
-</div>
-<div class="section level1">
-<h1 id="true-false">True False<a class="anchor" aria-label="anchor" href="#true-false"></a>
-</h1>
-<p><a href="https://memory-graph.com/#code=%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B3%2C%204%5D%20%5D%0Ab%20%3D%20a.copy" class="external-link uri">https://memory-graph.com/#code=%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B3%2C%204%5D%20%5D%0Ab%20%3D%20a.copy</a>()%0Ab%5B1%5D.append(5)%0A%0A%23%20True%20or%20False%3F%0Aprint(%20a%20%3D%3D%20b%20)%0Aprint(%20a%20is%20b%20)%0Aprint(%20a%5B0%5D%20%3D%3D%20b%5B0%5D%20)%0Aprint(%20a%5B0%5D%20is%20b%5B0%5D%20)%0Aprint(%20a%5B1%5D%20%3D%3D%20b%5B1%5D%20)%0Aprint(%20a%5B1%5D%20is%20b%5B1%5D%20)%0A</p>
-</div>
-<div class="section level1">
-<h1 id="min-fix">Min Fix<a class="anchor" aria-label="anchor" href="#min-fix"></a>
-</h1>
-<p><a href="https://memory-graph.com/#code=%0A%23%20Min%20Fix%2C%20how%20to%20make%20this%20program%20smaller%20but%20keep%20the%20same%20output%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Ab%20%3D%20a.copy" class="external-link uri">https://memory-graph.com/#code=%0A%23%20Min%20Fix%2C%20how%20to%20make%20this%20program%20smaller%20but%20keep%20the%20same%20output%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Ab%20%3D%20a.copy</a>()%0Ab%5B0%5D%20%3D%20a%5B0%5D.copy()%0Ab%5B0%5D.append(3)%0Ab%5B1%5D%20%3D%20a%5B1%5D.copy()%0Ab%5B1%5D.append(6)%0A%0Aprint(a)%20%20%23%20%5B%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Aprint(b)%20%20%23%20%5B%5B1%2C%202%2C%203%5D%2C%20%5B4%2C%205%2C%206%5D%5D%0A%0A</p>
-</div>
-<div class="section level1">
-<h1 id="parsons">Parsons<a class="anchor" aria-label="anchor" href="#parsons"></a>
-</h1>
-<p><a href="https://memory-graph.com/#code=%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Ab%20%3D%20a%0A%0A%23%20Parsons%20Problem%2C%20reorder%20these%20lines%20so%20that%20the%20output%20below%20is%20printed%0Ab%5B0%5D.append(3)%0Ab%5B1%5D.append(6)%0Ab%5B1%5D%20%3D%20a%5B1%5D.copy" class="external-link uri">https://memory-graph.com/#code=%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Ab%20%3D%20a%0A%0A%23%20Parsons%20Problem%2C%20reorder%20these%20lines%20so%20that%20the%20output%20below%20is%20printed%0Ab%5B0%5D.append(3)%0Ab%5B1%5D.append(6)%0Ab%5B1%5D%20%3D%20a%5B1%5D.copy</a>()%0Ab%5B0%5D%20%3D%20a%5B0%5D.copy()%0Ab%20%3D%20a.copy()%0A%0Aprint(a)%20%20%23%20%5B%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Aprint(b)%20%20%23%20%5B%5B1%2C%202%2C%203%5D%2C%20%5B4%2C%205%2C%206%5D%5D%0A%0A</p>
+<p><a href="https://memory-graph.com/#code=%0A%23%20Output%20of%20this%20Python%20program%3F%0Aa%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20a%0Ab.append(4)%0A%0Aprint(a)%0A%23%20---%20possible%20answers%20---%0A%23%20A" class="external-link">Multiple
+choice</a>%20%5B4%5D%0A%23%20B)%20%5B1%2C%202%2C%203%5D%0A%23%20C)%20%5B4%2C%201%2C%202%2C%203%5D%0A%23%20D)%20%5B1%2C%202%2C%203%2C%204%5D%0A)</p>
+<p><a href="https://memory-graph.com/#code=%0Aa%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20None%20%20%20%20%20%20%20%20%20%23%20%3C%3D%3D%3D%3D%3D%3D%3D%20%20What%20to%20write%20here%20so%20that%20%0Ab.append(4)%0A%0A%20%20%20%20%20%20%20%20%20%20%23%20the%20output%20is%3A%0Aprint(a)%20%20%23%20%5B1%2C%202%2C%203%5D%0Aprint(b)%20%20%23%20%5B1%2C%202%2C%203%2C%204%5D%0A" class="external-link">Fill
+in the blank</a></p>
+<p><a href="https://memory-graph.com/#code=%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B3%2C%204%5D%20%5D%0Ab%20%3D%20a.copy()%0Ab%5B1%5D.append(5)%0A%0A%23%20True%20or%20False%3F%0Aprint(%20a%20%3D%3D%20b%20)%0Aprint(%20a%20is%20b%20)%0Aprint(%20a%5B0%5D%20%3D%3D%20b%5B0%5D%20)%0Aprint(%20a%5B0%5D%20is%20b%5B0%5D%20)%0Aprint(%20a%5B1%5D%20%3D%3D%20b%5B1%5D%20)%0Aprint(%20a%5B1%5D%20is%20b%5B1%5D%20)%0A" class="external-link">True
+False</a></p>
+<p><a href="https://memory-graph.com/#code=%0A%23%20Min%20Fix%2C%20how%20to%20make%20this%20program%20smaller%20but%20keep%20the%20same%20output%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Ab%20%3D%20a.copy()%0Ab%5B0%5D%20%3D%20a%5B0%5D.copy()%0Ab%5B0%5D.append(3)%0Ab%5B1%5D%20%3D%20a%5B1%5D.copy()%0Ab%5B1%5D.append(6)%0A%0Aprint(a)%20%20%23%20%5B%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Aprint(b)%20%20%23%20%5B%5B1%2C%202%2C%203%5D%2C%20%5B4%2C%205%2C%206%5D%5D%0A%0A" class="external-link">Min
+Fix</a></p>
+<p><a href="https://memory-graph.com/#code=%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Ab%20%3D%20a%0A%0A%23%20Parsons%20Problem%2C%20reorder%20these%20lines%20so%20that%20the%20output%20below%20is%20printed%0Ab%5B0%5D.append(3)%0Ab%5B1%5D.append(6)%0Ab%5B1%5D%20%3D%20a%5B1%5D.copy()%0Ab%5B0%5D%20%3D%20a%5B0%5D.copy()%0Ab%20%3D%20a.copy()%0A%0Aprint(a)%20%20%23%20%5B%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Aprint(b)%20%20%23%20%5B%5B1%2C%202%2C%203%5D%2C%20%5B4%2C%205%2C%206%5D%5D%0A%0A" class="external-link">Parsons
+Problem</a></p>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div></section>
+</section></section>
 </div>
     </main>
 </div>
