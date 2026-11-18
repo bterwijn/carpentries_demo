@@ -6,11 +6,13 @@ exercises: 2 # exercise time in minutes
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- Just testing embedding exercises.
+- TODO
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
+
+After following this episode, learners will be able to...
 
 - Just a test
 - embed using iframe?
@@ -36,3 +38,9 @@ https://memory-graph.com/#code=%0A%23%20Min%20Fix%2C%20how%20to%20make%20this%20
 [Parsons Problem](
 https://memory-graph.com/#code=%0Aa%20%3D%20%5B%20%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Ab%20%3D%20a%0A%0A%23%20Parsons%20Problem%2C%20reorder%20these%20lines%20so%20that%20the%20output%20below%20is%20printed%0Ab%5B0%5D.append(3)%0Ab%5B1%5D.append(6)%0Ab%5B1%5D%20%3D%20a%5B1%5D.copy()%0Ab%5B0%5D%20%3D%20a%5B0%5D.copy()%0Ab%20%3D%20a.copy()%0A%0Aprint(a)%20%20%23%20%5B%5B1%2C%202%5D%2C%20%5B4%2C%205%5D%5D%0Aprint(b)%20%20%23%20%5B%5B1%2C%202%2C%203%5D%2C%20%5B4%2C%205%2C%206%5D%5D%0A%0A)
 
+
+:::::::::::::::::::::::::::::::::::::: keypoints 
+
+- TODO
+
+::::::::::::::::::::::::::::::::::::::::::::::::
